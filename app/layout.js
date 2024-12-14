@@ -5,6 +5,7 @@ import ThemeProvider from './components/ThemeProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL('https://jaymccauley.me'),
   title: 'Jay McCauley',
   description: 'Personal website of Jay McCauley',
   openGraph: {
