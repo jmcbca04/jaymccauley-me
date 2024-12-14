@@ -6,7 +6,7 @@ const FloatingIcon = ({ className, icon }) => (
 
 export default function Hero() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-6 pt-16 relative">
+    <main className="min-h-screen flex items-center justify-center px-6 pt-32 md:pt-16 relative">
       {/* Tech Floating Icons */}
       <FloatingIcon className="left-24 top-1/3 animate-float" icon="/cube.svg" />
       <FloatingIcon className="right-1/4 bottom-1/3 animate-float-delay-1" icon="/globe.svg" />
