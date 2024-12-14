@@ -1,5 +1,5 @@
 const FloatingIcon = ({ className, icon }) => (
-  <div className={`absolute opacity-20 ${className}`}>
+  <div className={`absolute opacity-20 dark:invert ${className}`}>
     <img src={icon} alt="" className="w-12 h-12" />
   </div>
 )
@@ -7,7 +7,7 @@ const FloatingIcon = ({ className, icon }) => (
 export default function Hero() {
   return (
     <main className="min-h-screen flex items-center justify-center px-6 pt-16 relative">
-      {/* Floating Icons */}
+      {/* Tech Floating Icons */}
       <FloatingIcon className="left-24 top-1/3 animate-float" icon="/cube.svg" />
       <FloatingIcon className="right-1/4 bottom-1/3 animate-float-delay-1" icon="/globe.svg" />
       <FloatingIcon className="left-1/3 bottom-1/4 animate-float-delay-2" icon="/code.svg" />
@@ -16,7 +16,11 @@ export default function Hero() {
       <div className="max-w-screen-xl mx-auto text-center">
         {/* Profile Image */}
         <div className="w-40 h-40 mx-auto mb-16 rounded-full overflow-hidden ring-4 ring-primary">
-          <div className="w-full h-full bg-primary/20"></div>
+          <img 
+            src="/headshot.png" 
+            alt="Jay McCauley"
+            className="w-full h-full object-cover"
+          />
         </div>
 
         {/* Hero Text */}
@@ -32,9 +36,6 @@ export default function Hero() {
             </span>, nice to meet you.
           </p>
           <div className="text-4xl space-y-4">
-            <p>
-              I like to <span className="inline-flex gap-3">🏌️ 🏃 🚴</span>
-            </p>
             <p>
               I like to learn <span className="inline-flex gap-3">👨🏼‍💻</span>
             </p>
