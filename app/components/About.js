@@ -10,10 +10,10 @@ export default function About() {
             <p>
               I have over a decade of experience working in customer facing roles, most of the last decade in Customer Success.
             </p>
-            <p>
+            <p className="mt-4">
               In summer of 2023 I started learning to code. Started with Python and became a Certified TensorFlow Developer.
             </p>
-            <p>
+            <p className="mt-4">
               Followed that up by learning Next.js. Now I&apos;m continuing to learn by building my own little projects.
             </p>
           </div>
