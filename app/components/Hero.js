@@ -8,10 +8,10 @@ export default function Hero() {
   return (
     <main className="min-h-screen flex items-center justify-center px-6 pt-32 md:pt-16 relative">
       {/* Tech Floating Icons */}
-      <FloatingIcon className="left-24 top-1/3 animate-float" icon="/cube.svg" />
-      <FloatingIcon className="right-1/4 bottom-1/3 animate-float-delay-1" icon="/globe.svg" />
-      <FloatingIcon className="left-1/3 bottom-1/4 animate-float-delay-2" icon="/code.svg" />
-      <FloatingIcon className="right-32 top-1/4 animate-float-delay-3" icon="/branch.svg" />
+      <FloatingIcon className="hidden md:block left-24 top-1/3 animate-float" icon="/cube.svg" />
+      <FloatingIcon className="left-4 md:left-1/4 bottom-1/4 md:bottom-1/3 animate-float-delay-1" icon="/globe.svg" />
+      <FloatingIcon className="right-4 md:left-1/3 top-1/4 md:bottom-1/4 animate-float-delay-2" icon="/code.svg" />
+      <FloatingIcon className="hidden md:block right-32 top-1/4 animate-float-delay-3" icon="/branch.svg" />
 
       <div className="max-w-screen-xl mx-auto text-center">
         {/* Profile Image */}
