@@ -39,6 +39,9 @@ export default function Hero() {
             <p>
               I like to learn <span className="inline-flex gap-3">👨🏼‍💻</span>
             </p>
+            <p>
+              I like to <span className="inline-flex gap-3">🏌️ 🏃 🚴</span>
+            </p>
           </div>
         </div>
 
