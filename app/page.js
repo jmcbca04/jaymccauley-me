@@ -23,12 +23,12 @@ export default function Home() {
         </section>
       </div>
       
-      <section id="skills" className="py-24">
-        <Skills />
+      <section id="projects" className="py-24">
+        <Projects />
       </section>
       
-      <section id="projects" className="py-24 bg-base-200">
-        <Projects />
+      <section id="skills" className="py-24 bg-base-200">
+        <Skills />
       </section>
       
       <section id="contact" className="py-24">
