@@ -2,13 +2,9 @@
 const nextConfig = {
   output: 'export',
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
-  // Explicitly define which files to include in the build
-  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
-  // Disable unnecessary features
-  reactStrictMode: true,
-  poweredByHeader: false,
+  reactStrictMode: true
 }
 
 module.exports = nextConfig 
