@@ -33,6 +33,12 @@ export default function Projects() {
       liveUrl: "https://www.getcrystalball.com/",
     },
     {
+      title: "QuickLaunch",
+      description: "A platform for quickly launching and managing SaaS applications with built-in authentication and payments.",
+      tech: ["Next.js", "Tailwind CSS", "DaisyUI"],
+      liveUrl: "https://www.usequicklaunch.com/",
+    },
+    {
       title: "ClickTrail",
       description: "Analytics tool for tracking and visualizing user behavior on websites.",
       tech: ["Next.js", "NeonDB", "Tailwind CSS", "DaisyUI"],
