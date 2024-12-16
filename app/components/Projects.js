@@ -34,7 +34,7 @@ export default function Projects() {
     },
     {
       title: "QuickLaunch",
-      description: "A platform for quickly launching and managing SaaS applications with built-in authentication and payments.",
+      description: "The fastest way to build and launch beautiful landing pages for your projects. No coding required.",
       tech: ["Next.js", "Tailwind CSS", "DaisyUI"],
       liveUrl: "https://www.usequicklaunch.com/",
     },
